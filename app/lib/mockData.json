@@ -1,0 +1,86 @@
+{
+  "transactions": [
+    {
+      "hash": "0x7d012d0731dcfe1dfaf9df1f7af4f4cb6aa39f4e258c9943d3c31c60c41e9901",
+      "from": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "to": "0x8Ba1f109551bD432803012645Ac136ddd64DBA72",
+      "value": "1.45 ETH",
+      "gasPrice": "25.5 GWEI",
+      "gasUsed": "21000",
+      "timestamp": 1701475200000,
+      "status": "success",
+      "blockNumber": 18990000
+    },
+    {
+      "hash": "0x2d012d0731dcfe1dfaf9df1f7af4f4cb6aa39f4e258c9943d3c31c60c41e9902",
+      "from": "0x8Ba1f109551bD432803012645Ac136ddd64DBA72",
+      "to": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "value": "0.5 ETH",
+      "gasPrice": "22.1 GWEI",
+      "gasUsed": "21000",
+      "timestamp": 1701474900000,
+      "status": "success",
+      "blockNumber": 18989999
+    },
+    {
+      "hash": "0x3d012d0731dcfe1dfaf9df1f7af4f4cb6aa39f4e258c9943d3c31c60c41e9903",
+      "from": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "to": "0x2Ba1f109551bD432803012645Ac136ddd64DBA72",
+      "value": "2.1 ETH",
+      "gasPrice": "24.3 GWEI",
+      "gasUsed": "21000",
+      "timestamp": 1701474600000,
+      "status": "failed",
+      "blockNumber": 18989998
+    },
+    {
+      "hash": "0x4d012d0731dcfe1dfaf9df1f7af4f4cb6aa39f4e258c9943d3c31c60c41e9904",
+      "from": "0x3Ba1f109551bD432803012645Ac136ddd64DBA72",
+      "to": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "value": "0.8 ETH",
+      "gasPrice": "23.7 GWEI",
+      "gasUsed": "21000",
+      "timestamp": 1701474300000,
+      "status": "success",
+      "blockNumber": 18989997
+    },
+    {
+      "hash": "0x5d012d0731dcfe1dfaf9df1f7af4f4cb6aa39f4e258c9943d3c31c60c41e9905",
+      "from": "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+      "to": "0x4Ba1f109551bD432803012645Ac136ddd64DBA72",
+      "value": "1.2 ETH",
+      "gasPrice": "26.2 GWEI",
+      "gasUsed": "21000",
+      "timestamp": 1701474000000,
+      "status": "success",
+      "blockNumber": 18989996
+    }
+  ],
+  "addresses": {
+    "0x742d35Cc6634C0532925a3b844Bc454e4438f44e": {
+      "balance": "15.7 ETH",
+      "transactionCount": 45,
+      "lastActive": 1701475200000
+    },
+    "0x8Ba1f109551bD432803012645Ac136ddd64DBA72": {
+      "balance": "8.2 ETH",
+      "transactionCount": 23,
+      "lastActive": 1701474900000
+    },
+    "0x2Ba1f109551bD432803012645Ac136ddd64DBA72": {
+      "balance": "5.4 ETH",
+      "transactionCount": 12,
+      "lastActive": 1701474600000
+    },
+    "0x3Ba1f109551bD432803012645Ac136ddd64DBA72": {
+      "balance": "3.9 ETH",
+      "transactionCount": 8,
+      "lastActive": 1701474300000
+    },
+    "0x4Ba1f109551bD432803012645Ac136ddd64DBA72": {
+      "balance": "6.1 ETH",
+      "transactionCount": 15,
+      "lastActive": 1701474000000
+    }
+  }
+}
