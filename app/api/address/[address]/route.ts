@@ -10,7 +10,20 @@ export async function GET(
   const page = parseInt(searchParams.get("page") || "1");
   const limit = parseInt(searchParams.get("limit") || "10");
 
-  const { transactions, addresses } = getMockData();
+  const { transactions, addresses } = getMockData() as {
+    transactions: {
+      from: string;
+      to: string;
+      timestamp: number;
+    }[];
+    addresses: {
+      [key: string]: {
+        balance: string;
+        transactionCount: number;
+        lastActive: number;
+      };
+    };
+  };
   const addressInfo = addresses[address];
 
   if (!addressInfo) {

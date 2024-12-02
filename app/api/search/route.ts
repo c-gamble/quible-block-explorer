@@ -12,7 +12,7 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const { transactions, addresses } = getMockData();
+  const { transactions } = getMockData();
 
   const matchingTransactions = transactions
     .filter(
