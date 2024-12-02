@@ -3,7 +3,7 @@ import { getMockData } from "@/app/lib/data";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { address: string } }
+  { params }: { params: Promise<{ address: string }> }
 ) {
   const { address } = await params;
   const searchParams = request.nextUrl.searchParams;

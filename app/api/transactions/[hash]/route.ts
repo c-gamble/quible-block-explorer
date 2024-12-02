@@ -3,7 +3,7 @@ import { getMockData } from "@/app/lib/data";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { hash: string } }
+  { params }: { params: Promise<{ hash: string }> }
 ) {
   const { hash } = await params;
   const { transactions } = getMockData();
